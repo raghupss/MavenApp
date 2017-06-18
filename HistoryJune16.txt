@@ -1,0 +1,72 @@
+    1  sudo apt-get update
+    2  sudo apt-get install openjdk-7-jdk
+    3  sudo apt-cache search maven
+    4  sudo apt-get install maven
+    5  sudo mvn -version
+    6  mkdir mavenprojs
+    7  cd mavenprojs
+    8  mkdir firstmavenapp
+    9  cd firstmavenapp
+   10  apt-get install git
+   11  sudo apt-get install git
+   12  git init
+   13  mvn archetype:generate
+   14  ls
+   15  cd MavenApp
+   16  ls
+   17  nano pom.xml
+   18  cd src
+   19  ls
+   20  cd main
+   21  ls
+   22  cd java
+   23  ls
+   24  cd /wf/crm/qshore
+   25  cd/wf
+   26  ls
+   27  clear
+   28  cd wf
+   29  ls
+   30  cd crm
+   31  ls
+   32  cd qshore
+   33  ls
+   34  nano App.java
+   35  cd..
+   36  cd ..
+   37  pwd
+   38  ls
+   39  cd ..
+   40  ls
+   41  cd test
+   42  ls
+   43  cd java
+   44  ls
+   45  cd /wf/crm
+   46  cd wf/crm/qshore
+   47  ls
+   48  cd 
+   49  cd mavenprojs
+   50  ls
+   51  cd firstmavenapp
+   52  ls
+   53  cd MavenApp
+   54  git init
+   55  git remote add origin https://github.com/raghupss/MavenApp.git
+   56  git status
+   57  git add .
+   58  git status
+   59* 
+   60  git config --global user.email "r@r.com"
+   61  git config --global user.name "Raghu"
+   62  git commit -m "addd"
+   63  git push -u origin master
+   64  ls
+   65  mvn compile
+   66  mvn package
+   67  git status
+   68  git commit -m "compiled file"
+   69  git add .
+   70  git commit -m "compiled file"
+   71  git push -u origin master
+   72  history > HistoryJune16.txt
